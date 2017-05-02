@@ -8,10 +8,10 @@ using TipCalc.Core.Services;
 
 namespace TipCalc.Core.ViewModels
 {
-    class TipViewModel : MvxViewModel
+    class TipCalcViewModel : MvxViewModel
     {
         private readonly ICalculation _calculation;
-        public TipViewModel(ICalculation calculation)
+        public TipCalcViewModel(ICalculation calculation)
         {
             _calculation = calculation;
         }

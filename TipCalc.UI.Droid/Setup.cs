@@ -11,11 +11,12 @@ using Android.Views;
 using Android.Widget;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Droid.Platform;
+using MvvmCross.Droid.Support.V7.AppCompat;
 using TipCalc.Core;
 
 namespace TipCalc.UI.Droid
 {
-    public class Setup : MvxAndroidSetup
+    public class Setup : MvxAppCompatSetup
     {
         public Setup(Context applicationContext) : base(applicationContext)
         {
